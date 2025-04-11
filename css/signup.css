@@ -1,0 +1,28 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+        background-image: url(../assets/back3.png);
+            background-size: cover;
+}
+
+#form {
+    padding: 10px;
+}
+
+#loginDiv {
+    background-color: #EAF2F1;
+    margin: 60px 100px;
+    padding: 60px 20px 30px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 8px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    #loginDiv {
+        margin: 80px auto;
+    }
+}
